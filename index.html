@@ -880,10 +880,10 @@
               <div class="mt-4 flex flex-wrap gap-3 text-xs text-slate-500 items-center">
                 <span class="px-2 py-1 bg-slate-100 rounded">👁️ ${
                   post.net_votes || 0
-                } votos</span>
+                } votes</span>
                 <span class="px-2 py-1 bg-slate-100 rounded">💬 ${
                   post.children || post.replies?.length || 0
-                } comentários</span>
+                } comments</span>
                 <span class="px-2 py-1 bg-slate-100 rounded">🔄 ${
                   post.reblogs || 0
                 } reblogs</span>
@@ -911,13 +911,13 @@
                   <span class="px-2 py-1 bg-blue-50 text-blue-600 rounded">
                     ${
                       currentSearch.sortOrder === "recent"
-                        ? "Recente"
+                        ? "Recent"
                         : "Relevante"
                     }
                   </span>
                   <a href="https://hive.blog${post.url || ""}" target="_blank" 
                      class="px-3 py-1 bg-slate-800 text-white rounded hover:bg-slate-700 transition-colors">
-                    Abrir no Hive
+                    Open in Hive
                   </a>
                 </div>
               </div>
